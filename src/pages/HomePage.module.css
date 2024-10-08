@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+*{
+    margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+    background-color: #656565;
+}
+.containerTotal {
+    margin: 0px 15px;
+}
+
+/* Inicio */
+.containerInicio {
+    display: flex;
+}
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.title {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-size: 46px;
+}
+.subtitle {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #d8cdcd;
+    letter-spacing: 1px;
+}
+.text {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: #d8cdcd;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+/* Skills */
