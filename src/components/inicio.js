@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../pages/HomePage.module.css";
 import LogoGif from "../assets/images/logoGiF.gif";
+import CV from '../assets/files/Cv_Ignacio_De_Simone.pdf';
 
 const Inicio = () => {
   return (
@@ -11,12 +12,14 @@ const Inicio = () => {
           <p className={styles.subtitle}>
             Full Stack Developer & Digital Marketing
           </p>
+          <a href={CV} download className={styles.downloadButton}>
+            Download CV
+          </a> 
         </div>
         <img className={styles.logo} src={LogoGif} alt="logo.gif" />
       </div>
       <p className={styles.text}>
-        I am delighted to have you here, check out my profile, see my work and
-        if you need something you know what to do!
+      I’m thrilled to have you here. Explore my profile, discover the projects I’ve worked on, and if you’re looking for collaboration or have a challenge in mind, don’t hesitate to reach out—let’s create something great together!
       </p>
     </>
   );
