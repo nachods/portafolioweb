@@ -15,6 +15,9 @@ const HomePage = () => {
       {/* Proyectos */}
       <br/>
       <Proyects/>
+      {/* Formacion */}
+      <br/>
+      <p>Formacion</p>
       {/* Contacto y redes */}
       <br/>
       <p>Formulario de Contacto y redes para contactar</p>
