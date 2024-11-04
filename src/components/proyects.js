@@ -26,7 +26,7 @@ const proyects = () => {
             img={SweetBakery}
             name="Sweet Bakery"
             link="https://sweetbbakery.netlify.app/"
-            desc="Página web que cuenta con un backend donde se hace una carga de productos, que solo puede realizar el administrador del mismo emprendimiento"
+            desc="Website that has a backend where products are uploaded, which can only be done by the administrator of the same venture"
             icon1={ReactJS}
             icon2={CSS}
             icon3={Bootstrap}
@@ -38,7 +38,7 @@ const proyects = () => {
             img={SaboresDeItalia}
             name="Sabores de Italia"
             link="https://saboresdeitalia.netlify.app/"
-            desc="Proyecto final de la carrera Full Stack Developer en el cual se imita un restaurante italiano"
+            desc="Final project of the Full Stack Developer degree in which an Italian restaurant is imitated"
             icon1={ReactJS}
             icon2={CSS}
             icon3={Bootstrap}
@@ -51,15 +51,15 @@ const proyects = () => {
       <div className={styles.subContainerFullStack}>
         <OneCardMkt
           img = {DiagrammaSA}
-          name = 'Pasantia en DiagrammaSA'
+          name = 'Internship at DiagrammaSA'
           link = 'https://diagramma.com.ar/'
-          desc = 'La pasantia en Diagramma duro 6 meses (07/24 - 12/24) donde desarrolle tareas relacionadas al campo de la investigación de mercado para la incorporacion de un nuevo producto al comercio'
+          desc = 'The internship at Diagramma lasted 6 months (07/24 - 12/24) where I developed tasks related to the field of market research for the incorporation of a new product into commerce.'
         />
         <OneCardMkt
           img = {SweetBakeryIG}
           name = 'Sweet Bakery'
           link = 'https://www.instagram.com/_sweetbbakery/'
-          desc = 'Instagram y unica red social donde el emprendimiento familiar hace foco para vender sus productos'
+          desc = 'Instagram and the only social network where family business focuses on selling their products'
         />
       </div>
     </div>
